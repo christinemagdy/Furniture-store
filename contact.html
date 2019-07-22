@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- endbuild -->
+    <title>Furniture Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Furniture</span> Store</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li class="current"><a href="#">contact</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#"><i class="fa fa-search" data-toggle="tooltip" data-placement="bottom"
+                                title="Search for any product"></i> </a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <section id="showcase">
+        <div class="container">
+            <h1>CREATE STYLE IS EASY</h1>
+            <p>The best way to buy beatiful Modern Furniture</p>
+            <button type="submit" class="btn">SHOP NOW</button>
+        </div>
+    </section>
+    <div class="row row-content align-items-center">
+        <div class="col-12 col-md-4 offset-sm-1">
+
+            <div class="card" style="border-radius: 50px">
+                <div class="card-body" style="border-radius: 50px">
+                    <h6 class="card-title offset-md-1"></h6>
+                    <h4>Contact Form</h4>
+
+                    <form id="form-contact" method="post" class="form clearfix">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <label for="form-contact-name">Your Name</label>
+                                    <input type="text" class="form-control" id="form-contact-name" name="name"
+                                        placeholder="Your Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <label for="form-contact-email">Your Email</label>
+                                    <input type="email" class="form-control" id="form-contact-email" name="email"
+                                        placeholder="Your Email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form-contact-message">Your Message</label>
+                                    <textarea class="form-control" id="form-contact-message" rows="8" name="message"
+                                        placeholder="Your Message" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <button type="submit" class="btn pull-right btn-default" id="form-contact-submit">Send a
+                                Message</button>
+                        </div>
+                        <div class="form-contact-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-5 offset-md-1">
+
+            <div class="card" style="border-radius: 50px">
+                <img src="img/giphy.gif" style="border-radius: 50px">
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+<footer>
+    <section id="footer">
+        <div class="container">
+            <h4>© Copyright 2019 FurnitureStore</h4>
+            <form class="form-inline">
+                <div class="form-group mx-sm-3 mb-2">
+                    <div class="text-center">
+                        <a href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</footer>
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+
+</html>

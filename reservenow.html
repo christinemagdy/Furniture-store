@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- endbuild -->
+
+    <title>Furniture Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Furniture</span> Store</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#"><i class="fa fa-search" data-toggle="tooltip" data-placement="bottom"
+                                title="Search for any product"></i> </a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="col-12 col-sm-6 offset-md-3 align-items-center">
+        <div class="card">
+            <div class="card-body">
+                <h6 class="card-title">Reserve Form</h6>
+                <form>
+                    <div class="row form-group align-items-center">
+                        <label for="date" class="col-12 col-md-2 col-form-label">First Name</label>
+                        <div class="col-12 col-md-4">
+                            <input type="text" class="form-control" placeholder="First Name">
+                        </div>
+                        <label for="date" class="col-12 col-md-2 col-form-label">Last Name</label>
+                        <div class="col-12 col-md-4">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row align-items-center">
+                        <label for="section" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-12 col-md-6">
+                            <input type="email" class="form-control" placeholder="Enter your Email">
+                        </div>
+                    </div>
+                    <div class="form-group row align-items-center">
+                        <label for="section" class="col-md-2 col-form-label">Address </label>
+                        <div class="col-12 col-md-6">
+                            <input type="text" class="form-control" placeholder="Enter your Address">
+                        </div>
+                    </div>
+                    <div class="form-group row align-items-center">
+                        <label for="section" class="col-md-3 col-form-label">Reserve Type</label>
+                        <div class="btn-group btn-group-toggle col-md-4" data-toggle="buttons">
+                            <label class="btn btn-success">
+                                <input type="radio" name="options" id="option1"> At Home
+                            </label>
+                            <label class="btn btn-danger">
+                                <input type="radio" name="options" id="option2"> At Company
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row form-group align-items-center">
+                        <label class="col-md-2 col-form-label">Number of Product</label>
+                        <div class="col-2">
+                            <input type="number" class="form-control" placeholder="1">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-info">
+                                Reserve
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <section id="footer">
+            <div class="container">
+                <h4>© Copyright 2019 FurnitureStore</h4>
+                <form class="form-inline">
+                    <div class="form-group mx-sm-3 mb-2">
+                        <div class="text-center">
+                            <a href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                            <a href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                            <a href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                            <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                            <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                            <a href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+
+</html>
